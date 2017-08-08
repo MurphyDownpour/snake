@@ -18,9 +18,24 @@ namespace snake
         }
         int direction = 1;
 
+        PictureBox apple = new PictureBox();
+
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
+            
+            apple.Image = Image.FromFile(@"C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\apple.png");
+            apple.SizeMode = PictureBoxSizeMode.Zoom;
+            apple.Width = 20;
+            apple.Height = 20;
+            apple.Top = 100;
+            apple.Left = 100;
+            Controls.Add(apple);
+
+            if(apple.Left == snake.Left || apple.Top == snake.Top)
+            {
+                apple.Visible = false;
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -91,7 +106,7 @@ namespace snake
         public new void Left()
         {
             snake.Left -= 5;
-            if (border4.Left <= snake.Left)
+            if (border4.Left >= snake.Left)
             {
                 timer1.Enabled = false;
                 MessageBox.Show("You lose");
@@ -101,7 +116,7 @@ namespace snake
         public new void Right()
         {
             snake.Left += 5;
-            if (border2.Left >= snake.Left)
+            if (border2.Left <= snake.Left)
             {
                 timer1.Enabled = false;
                 MessageBox.Show("You lose");

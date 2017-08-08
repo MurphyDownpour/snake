@@ -7,3 +7,12 @@ c:\users\p501\documents\visual studio 2017\Projects\snake\snake\obj\Debug\snake.
 c:\users\p501\documents\visual studio 2017\Projects\snake\snake\obj\Debug\snake.csproj.GenerateResource.Cache
 c:\users\p501\documents\visual studio 2017\Projects\snake\snake\obj\Debug\snake.exe
 c:\users\p501\documents\visual studio 2017\Projects\snake\snake\obj\Debug\snake.pdb
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\bin\Debug\snake.exe.config
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\bin\Debug\snake.exe
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\bin\Debug\snake.pdb
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\obj\Debug\snake.csprojResolveAssemblyReference.cache
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\obj\Debug\snake.Form1.resources
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\obj\Debug\snake.Properties.Resources.resources
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\obj\Debug\snake.csproj.GenerateResource.Cache
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\obj\Debug\snake.exe
+C:\Users\Заур\Documents\Visual Studio 2017\Projects\Snake\snake\obj\Debug\snake.pdb

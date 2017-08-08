@@ -32,7 +32,7 @@ namespace snake
             apple.Left = 100;
             Controls.Add(apple);
 
-            if(apple.Left == snake.Left || apple.Top == snake.Top)
+            if(apple.Left == snake.Left && apple.Top == snake.Top)
             {
                 apple.Visible = false;
             }
